@@ -8,7 +8,20 @@
 
 require 'csv'
 
-count = 0
+Card.delete_all
 
-CSV.foreach("./lib/assets/csv/cards.csv") do |row|
-end
+CSV.foreach("./lib/assets/csv/cards.csv", :headers => true) do |row|
+
+  params = {
+             tag:          row['tag'], 
+             name:         row['name'], 
+             card_type:   row['type'], 
+             rarity:       row['rarity'], 
+             cost:         row['cost'].to_i,
+             attack:       row['attack'].to_i,
+             health:       row['health'].to_i,
+             player_class: row['playerClass'].to_i
+           }
+  Card.create(params)  
+
+end  
