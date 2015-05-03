@@ -1,0 +1,565 @@
+tag,name,type,rarity,cost,attack,health,mechanics,playerClass
+EX1_097,Abomination,Minion,Rare,5,4,4,Deathrattle Taunt,
+CS2_188,Abusive Sergeant,Minion,Common,1,2,1,Battlecry,
+EX1_066,Acidic Swamp Ooze,Minion,Common,2,3,2,Battlecry,
+EX1_007,Acolyte of Pain,Minion,Common,3,1,3,,
+NEW1_010,Al'Akir the Windlord,Minion,Legendary,8,3,5,Charge Divine Shield Taunt Windfury,Shaman
+EX1_006,Alarm-o-Bot,Minion,Rare,3,0,3,,
+EX1_382,Aldor Peacekeeper,Minion,Rare,3,3,3,Battlecry,Paladin
+EX1_561,Alexstrasza,Minion,Legendary,9,8,8,Battlecry,
+EX1_393,Amani Berserker,Minion,Common,2,2,3,Enrage,
+GVG_029,Ancestor's Call,Spell,Epic,4,,,,Shaman
+CS2_041,Ancestral Healing,Spell,Free,0,,,,Shaman
+CS2_038,Ancestral Spirit,Spell,Rare,2,,,,Shaman
+EX1_057,Ancient Brewmaster,Minion,Common,4,5,4,Battlecry,
+EX1_584,Ancient Mage,Minion,Rare,4,2,5,Battlecry,
+EX1_045,Ancient Watcher,Minion,Rare,2,4,5,,
+NEW1_008,Ancient of Lore,Minion,Epic,7,5,5,,Druid
+EX1_178,Ancient of War,Minion,Epic,7,5,5,,Druid
+EX1_009,Angry Chicken,Minion,Rare,1,1,1,Enrage,
+GVG_077,Anima Golem,Minion,Epic,6,9,9,,Warlock
+NEW1_031,Animal Companion,Spell,Common,3,,,,Hunter
+GVG_085,Annoy-o-Tron,Minion,Common,2,1,2,Divine Shield Taunt,
+GVG_030,Anodized Robo Cub,Minion,Common,2,2,2,Taunt,Druid
+GVG_069,Antique Healbot,Minion,Common,5,3,3,Battlecry,
+FP1_026,Anub'ar Ambusher,Minion,Common,4,5,5,Deathrattle,Rogue
+EX1_398,Arathi Weaponsmith,Minion,Common,4,3,3,Battlecry,Warrior
+CS2_025,Arcane Explosion,Spell,Free,2,,,,Mage
+EX1_089,Arcane Golem,Minion,Rare,3,4,2,Battlecry Charge,
+CS2_023,Arcane Intellect,Spell,Free,3,,,,Mage
+EX1_277,Arcane Missiles,Spell,Free,1,,,ImmuneToSpellpower,Mage
+GVG_091,Arcane Nullifier X-21,Minion,Rare,4,2,5,Taunt,
+DS1_185,Arcane Shot,Spell,Free,1,,,,Hunter
+CS2_112,Arcanite Reaper,Weapon,Common,5,5,,,Warrior
+CS2_155,Archmage,Minion,Common,6,4,7,Spellpower,
+EX1_559,Archmage Antonidas,Minion,Legendary,7,5,7,,Mage
+EX1_067,Argent Commander,Minion,Rare,6,4,2,Charge Divine Shield,
+EX1_362,Argent Protector,Minion,Common,2,2,2,Battlecry,Paladin
+EX1_008,Argent Squire,Minion,Common,1,1,1,Divine Shield,
+EX1_402,Armorsmith,Minion,Rare,2,1,4,,Warrior
+CS2_080,Assassin's Blade,Weapon,Common,5,3,,,Rogue
+CS2_076,Assassinate,Spell,Free,5,,,,Rogue
+EX1_591,Auchenai Soulpriest,Minion,Rare,4,3,5,Aura,Priest
+FP1_020,Avenge,Spell,Common,1,,,Secret,Paladin
+EX1_384,Avenging Wrath,Spell,Epic,6,,,ImmuneToSpellpower,Paladin
+BRM_016,Axe Flinger,Minion,Common,4,2,5,,Warrior
+EX1_284,Azure Drake,Minion,Rare,5,4,4,Battlecry Spellpower,
+CS2_072,Backstab,Spell,Free,0,,,,Rogue
+EX1_320,Bane of Doom,Spell,Epic,5,,,,Warlock
+EX1_249,Baron Geddon,Minion,Legendary,7,7,5,,
+FP1_031,Baron Rivendare,Minion,Legendary,4,1,7,Aura,
+EX1_392,Battle Rage,Spell,Common,2,,,,Warrior
+EX1_549,Bestial Wrath,Spell,Epic,1,,,,Hunter
+EX1_126,Betrayal,Spell,Common,2,,,,Rogue
+EX1_005,Big Game Hunter,Minion,Epic,3,4,2,Battlecry,
+EX1_570,Bite,Spell,Rare,4,,,,Druid
+BRM_034,Blackwing Corruptor,Minion,Common,5,5,4,Battlecry,
+BRM_033,Blackwing Technician,Minion,Common,3,2,4,Battlecry,
+CS2_233,Blade Flurry,Spell,Rare,2,,,AffectedBySpellPower,Rogue
+EX1_355,Blessed Champion,Spell,Rare,5,,,,Paladin
+CS2_092,Blessing of Kings,Spell,Common,4,,,,Paladin
+CS2_087,Blessing of Might,Spell,Free,1,,,,Paladin
+EX1_363,Blessing of Wisdom,Spell,Common,1,,,,Paladin
+GVG_119,Blingtron 3000,Minion,Legendary,5,3,4,Battlecry,
+CS2_028,Blizzard,Spell,Rare,6,,,Freeze,Mage
+CS2_059,Blood Imp,Minion,Common,1,0,1,Stealth,Warlock
+EX1_590,Blood Knight,Minion,Epic,3,3,3,Battlecry,
+CS2_172,Bloodfen Raptor,Minion,Free,2,3,2,,
+CS2_046,Bloodlust,Spell,Common,5,,,,Shaman
+EX1_012,Bloodmage Thalnos,Minion,Legendary,2,1,1,Deathrattle Spellpower,
+NEW1_025,Bloodsail Corsair,Minion,Rare,1,1,2,Battlecry,
+NEW1_018,Bloodsail Raider,Minion,Common,2,2,3,Battlecry,
+CS2_173,Bluegill Warrior,Minion,Common,2,2,1,Charge,
+GVG_063,Bolvar Fordragon,Minion,Legendary,5,1,7,,Paladin
+GVG_099,Bomb Lobber,Minion,Rare,5,3,3,Battlecry,
+CS2_187,Booty Bay Bodyguard,Minion,Common,5,5,4,Taunt,
+CS2_200,Boulderfist Ogre,Minion,Free,6,6,7,,
+GVG_050,Bouncing Blade,Spell,Epic,3,,,,Warrior
+EX1_407,Brawl,Spell,Epic,5,,,,Warrior
+GVG_068,Burly Rockjaw Trogg,Minion,Common,4,3,5,,
+EX1_091,Cabal Shadow Priest,Minion,Epic,6,4,5,Battlecry,Priest
+EX1_110,Cairne Bloodhoof,Minion,Legendary,6,4,5,Deathrattle,
+GVG_017,Call Pet,Spell,Rare,2,,,,Hunter
+NEW1_024,Captain Greenskin,Minion,Legendary,5,5,4,Battlecry,
+NEW1_016,Captain's Parrot,Minion,Epic,2,1,1,Battlecry,
+EX1_573,Cenarius,Minion,Legendary,9,5,8,,Druid
+CS2_103,Charge,Spell,Free,3,,,,Warrior
+CS2_182,Chillwind Yeti,Minion,Common,4,4,5,,
+BRM_031,Chromaggus,Minion,Legendary,8,6,8,,
+EX1_621,Circle of Healing,Spell,Common,0,,,,Priest
+CS2_005,Claw,Spell,Free,1,,,,Druid
+CS2_114,Cleave,Spell,Common,2,,,,Warrior
+GVG_121,Clockwork Giant,Minion,Epic,12,8,8,,
+GVG_082,Clockwork Gnome,Minion,Common,1,2,1,Deathrattle,
+GVG_062,Cobalt Guardian,Minion,Rare,5,6,3,,Paladin
+GVG_073,Cobra Shot,Spell,Common,5,,,,Hunter
+GVG_059,Coghammer,Weapon,Epic,3,2,,Battlecry,Paladin
+GVG_013,Cogmaster,Minion,Common,1,1,2,Aura,
+GVG_024,Cogmaster's Wrench,Weapon,Epic,3,1,,Aura,Rogue
+CS2_073,Cold Blood,Spell,Common,1,,,Combo,Rogue
+EX1_050,Coldlight Oracle,Minion,Rare,3,2,2,Battlecry,
+EX1_103,Coldlight Seer,Minion,Rare,3,2,3,Battlecry,
+NEW1_036,Commanding Shout,Spell,Rare,2,,,,Warrior
+EX1_128,Conceal,Spell,Common,1,,,,Rogue
+EX1_275,Cone of Cold,Spell,Common,4,,,Freeze,Mage
+CS2_093,Consecration,Spell,Common,4,,,,Paladin
+CS2_201,Core Hound,Minion,Common,7,9,5,,
+BRM_014,Core Rager,Minion,Rare,4,4,4,Battlecry,Hunter
+CS2_063,Corruption,Spell,Common,1,,,,Warlock
+EX1_287,Counterspell,Spell,Rare,3,,,Secret,Mage
+GVG_038,Crackle,Spell,Common,2,,,,Shaman
+EX1_059,Crazed Alchemist,Minion,Rare,2,2,2,Battlecry,
+EX1_603,Cruel Taskmaster,Minion,Common,2,2,2,Battlecry,Warrior
+GVG_052,Crush,Spell,Epic,7,,,,Warrior
+EX1_595,Cult Master,Minion,Common,4,4,2,,
+EX1_582,Dalaran Mage,Minion,Common,3,1,4,Spellpower,
+FP1_029,Dancing Swords,Minion,Common,3,4,4,Deathrattle,
+FP1_023,Dark Cultist,Minion,Common,3,3,4,Deathrattle,Priest
+EX1_046,Dark Iron Dwarf,Minion,Common,4,4,4,Battlecry,
+BRM_008,Dark Iron Skulker,Minion,Rare,5,4,3,Battlecry,Rogue
+GVG_041,Dark Wispers,Spell,Epic,6,,,,Druid
+GVG_015,Darkbomb,Spell,Common,2,,,,Warlock
+DS1_055,Darkscale Healer,Minion,Common,5,4,5,Battlecry,
+CS2_074,Deadly Poison,Spell,Free,1,,,,Rogue
+EX1_617,Deadly Shot,Spell,Common,3,,,,Hunter
+FP1_021,Death's Bite,Weapon,Common,4,4,,Deathrattle,Warrior
+FP1_009,Deathlord,Minion,Rare,3,2,8,Deathrattle Taunt,
+NEW1_030,Deathwing,Minion,Legendary,10,12,12,Battlecry,
+EX1_093,Defender of Argus,Minion,Rare,4,2,3,Battlecry,
+EX1_131,Defias Ringleader,Minion,Common,2,2,2,Combo,Rogue
+EX1_102,Demolisher,Minion,Rare,3,1,4,,
+EX1_596,Demonfire,Spell,Common,2,,,,Warlock
+GVG_019,Demonheart,Spell,Epic,5,,,,Warlock
+BRM_005,Demonwrath,Spell,Rare,3,,,AffectedBySpellPower,Warlock
+EX1_162,Dire Wolf Alpha,Minion,Common,2,2,2,AdjacentBuff Aura,
+EX1_349,Divine Favor,Spell,Rare,3,,,,Paladin
+CS2_236,Divine Spirit,Spell,Common,2,,,,Priest
+EX1_310,Doomguard,Minion,Rare,5,5,7,Battlecry Charge,Warlock
+EX1_567,Doomhammer,Weapon,Epic,5,2,,Windfury,Shaman
+NEW1_021,Doomsayer,Minion,Epic,2,0,7,,
+GVG_110,Dr. Boom,Minion,Legendary,7,7,7,Battlecry,
+BRM_018,Dragon Consort,Minion,Rare,5,5,5,Battlecry,Paladin
+BRM_022,Dragon Egg,Minion,Rare,1,0,2,,
+BRM_003,Dragon's Breath,Spell,Common,5,,,,Mage
+BRM_020,Dragonkin Sorcerer,Minion,Common,4,3,5,,
+EX1_025,Dragonling Mechanic,Minion,Common,4,2,4,Battlecry,
+CS2_061,Drain Life,Spell,Free,3,,,,Warlock
+BRM_024,Drakonid Crusher,Minion,Common,6,6,6,Battlecry,
+NEW1_022,Dread Corsair,Minion,Common,4,3,3,Taunt,
+CS2_064,Dread Infernal,Minion,Common,6,6,6,Battlecry,Warlock
+EX1_165,Druid of the Claw,Minion,Common,5,4,4,,Druid
+GVG_080,Druid of the Fang,Minion,Common,5,4,4,Battlecry,Druid
+BRM_010,Druid of the Flame,Minion,Common,3,2,2,,Druid
+GVG_066,Dunemaul Shaman,Minion,Rare,4,5,4,Windfury,Shaman
+FP1_018,Duplicate,Spell,Common,3,,,Secret,Mage
+EX1_243,Dust Devil,Minion,Common,1,3,1,Windfury,Shaman
+EX1_536,Eaglehorn Bow,Weapon,Rare,3,3,,,Hunter
+EX1_250,Earth Elemental,Minion,Epic,5,7,8,Taunt,Shaman
+EX1_245,Earth Shock,Spell,Common,1,,,Silence,Shaman
+CS2_117,Earthen Ring Farseer,Minion,Common,3,3,3,Battlecry,
+GVG_005,Echo of Medivh,Spell,Epic,4,,,,Mage
+FP1_003,Echoing Ooze,Minion,Epic,2,1,2,Battlecry,
+EX1_613,Edwin VanCleef,Minion,Legendary,3,2,2,Combo,Rogue
+CS2_189,Elven Archer,Minion,Common,1,1,1,Battlecry,
+EX1_170,Emperor Cobra,Minion,Rare,3,2,3,Poisonous,
+BRM_028,Emperor Thaurissan,Minion,Legendary,6,5,5,,
+GVG_107,Enhance-o Mechano,Minion,Epic,4,3,2,Battlecry,
+EX1_619,Equality,Spell,Rare,2,,,,Paladin
+EX1_274,Ethereal Arcanist,Minion,Rare,4,3,3,,Mage
+EX1_124,Eviscerate,Spell,Common,2,,,Combo,Rogue
+CS2_108,Execute,Spell,Free,1,,,,Warrior
+GVG_076,Explosive Sheep,Minion,Common,2,1,1,Deathrattle,
+EX1_537,Explosive Shot,Spell,Rare,5,,,,Hunter
+EX1_610,Explosive Trap,Spell,Common,2,,,Secret,Hunter
+EX1_132,Eye for an Eye,Spell,Common,1,,,Secret,Paladin
+EX1_564,Faceless Manipulator,Minion,Epic,5,3,3,Battlecry,
+NEW1_023,Faerie Dragon,Minion,Common,2,3,2,,
+EX1_129,Fan of Knives,Spell,Common,3,,,,Rogue
+CS2_053,Far Sight,Spell,Epic,3,,,,Shaman
+GVG_026,Feign Death,Spell,Epic,2,,,,Hunter
+GVG_020,Fel Cannon,Minion,Rare,4,3,5,,Warlock
+GVG_016,Fel Reaver,Minion,Epic,5,8,8,,
+EX1_301,Felguard,Minion,Rare,3,3,5,Battlecry Taunt,Warlock
+CS1_069,Fen Creeper,Minion,Common,5,3,6,Taunt,
+EX1_248,Feral Spirit,Spell,Rare,3,,,,Shaman
+FP1_015,Feugen,Minion,Legendary,5,4,7,Deathrattle,
+CS2_106,Fiery War Axe,Weapon,Free,2,3,,,Warrior
+CS2_042,Fire Elemental,Minion,Common,6,6,5,Battlecry,Shaman
+CS2_029,Fireball,Spell,Free,4,,,,Mage
+BRM_012,Fireguard Destroyer,Minion,Common,4,3,6,Battlecry,Shaman
+EX1_319,Flame Imp,Minion,Common,1,3,2,Battlecry,Warlock
+GVG_007,Flame Leviathan,Minion,Legendary,7,7,7,,Mage
+GVG_001,Flamecannon,Spell,Common,2,,,,Mage
+CS2_032,Flamestrike,Spell,Common,7,,,,Mage
+EX1_565,Flametongue Totem,Minion,Common,2,0,3,AdjacentBuff Aura,Shaman
+BRM_002,Flamewaker,Minion,Rare,3,2,4,,Mage
+EX1_544,Flare,Spell,Rare,2,,,,Hunter
+tt_004,Flesheating Ghoul,Minion,Common,3,2,3,,
+GVG_100,Floating Watcher,Minion,Common,5,4,4,,Warlock
+GVG_084,Flying Machine,Minion,Common,3,1,4,Windfury,
+GVG_113,Foe Reaper 4000,Minion,Legendary,8,6,9,,
+EX1_571,Force of Nature,Spell,Epic,6,,,,Druid
+GVG_079,Force-Tank MAX,Minion,Common,8,7,7,Divine Shield,
+EX1_251,Forked Lightning,Spell,Common,1,,,,Shaman
+EX1_611,Freezing Trap,Spell,Common,2,,,Secret,Hunter
+EX1_283,Frost Elemental,Minion,Common,6,5,5,Battlecry Freeze,
+CS2_026,Frost Nova,Spell,Common,3,,,Freeze,Mage
+CS2_037,Frost Shock,Spell,Free,1,,,Freeze,Shaman
+CS2_024,Frostbolt,Spell,Common,2,,,Freeze,Mage
+CS2_121,Frostwolf Grunt,Minion,Common,2,2,2,Taunt,
+CS2_226,Frostwolf Warlord,Minion,Common,5,4,4,Battlecry,
+EX1_604,Frothing Berserker,Minion,Rare,3,2,4,,Warrior
+EX1_095,Gadgetzan Auctioneer,Minion,Rare,6,4,4,,
+GVG_049,Gahz'rilla,Minion,Legendary,7,6,9,,Hunter
+BRM_007,Gang Up,Spell,Common,2,,,,Rogue
+GVG_117,Gazlowe,Minion,Legendary,6,3,6,,
+GVG_081,Gilblin Stalker,Minion,Common,2,2,3,Stealth,
+DS1_188,Gladiator's Longbow,Weapon,Epic,7,5,,,Hunter
+GVG_043,Glaivezooka,Weapon,Common,2,2,,Battlecry,Hunter
+GVG_098,Gnomeregan Infantry,Minion,Common,3,1,4,Charge Taunt,
+GVG_092,Gnomish Experimenter,Minion,Rare,3,3,2,Battlecry,
+CS2_147,Gnomish Inventor,Minion,Common,4,2,4,Battlecry,
+GVG_023,Goblin Auto-Barber,Minion,Common,2,3,2,Battlecry,Rogue
+GVG_004,Goblin Blastmage,Minion,Rare,4,5,4,Battlecry,Mage
+GVG_095,Goblin Sapper,Minion,Rare,3,2,4,Aura,
+CS1_042,Goldshire Footman,Minion,Common,1,1,2,Taunt,
+EX1_411,Gorehowl,Weapon,Epic,7,7,,,Warrior
+BRM_019,Grim Patron,Minion,Rare,5,3,3,,
+EX1_508,Grimscale Oracle,Minion,Common,1,1,1,Aura,
+EX1_414,Grommash Hellscream,Minion,Legendary,8,4,9,Charge Enrage,Warrior
+GVG_032,Grove Tender,Minion,Rare,3,2,4,,Druid
+NEW1_038,Gruul,Minion,Legendary,8,7,7,,
+CS2_088,Guardian of Kings,Minion,Common,7,5,6,Battlecry,Paladin
+EX1_399,Gurubashi Berserker,Minion,Common,5,2,7,,
+CS2_094,Hammer of Wrath,Spell,Free,4,,,,Paladin
+EX1_371,Hand of Protection,Spell,Free,1,,,,Paladin
+EX1_558,Harrison Jones,Minion,Legendary,5,5,4,Battlecry,
+EX1_556,Harvest Golem,Minion,Common,3,2,3,Deathrattle,
+FP1_002,Haunted Creeper,Minion,Common,2,1,2,Deathrattle,
+EX1_137,Headcrack,Spell,Rare,3,,,Combo,Rogue
+CS2_007,Healing Touch,Spell,Free,3,,,,Druid
+CS2_062,Hellfire,Spell,Free,4,,,,Warlock
+GVG_120,Hemet Nesingwary,Minion,Legendary,5,6,3,Battlecry,
+CS2_105,Heroic Strike,Spell,Free,2,,,,Warrior
+EX1_246,Hex,Spell,Free,3,,,,Shaman
+GVG_104,Hobgoblin,Minion,Epic,3,2,3,,
+NEW1_040,Hogger,Minion,Legendary,6,4,4,,
+EX1_624,Holy Fire,Spell,Rare,6,,,,Priest
+CS2_089,Holy Light,Spell,Free,2,,,,Paladin
+CS1_112,Holy Nova,Spell,Common,5,,,,Priest
+CS1_130,Holy Smite,Spell,Free,1,,,,Priest
+EX1_365,Holy Wrath,Spell,Rare,5,,,,Paladin
+DS1_070,Houndmaster,Minion,Free,4,4,3,Battlecry,Hunter
+EX1_360,Humility,Spell,Common,1,,,,Paladin
+NEW1_017,Hungry Crab,Minion,Epic,1,1,2,Battlecry,
+BRM_026,Hungry Dragon,Minion,Common,4,5,6,Battlecry,
+CS2_084,Hunter's Mark,Spell,Common,0,,,,Hunter
+EX1_289,Ice Barrier,Spell,Common,3,,,Secret,Mage
+EX1_295,Ice Block,Spell,Epic,3,,,Secret,Mage
+CS2_031,Ice Lance,Spell,Common,1,,,Freeze,Mage
+EX1_614,Illidan Stormrage,Minion,Legendary,6,7,5,,
+GVG_089,Illuminator,Minion,Rare,3,2,4,,
+BRM_006,Imp Gang Boss,Minion,Common,3,2,4,,Warlock
+EX1_597,Imp Master,Minion,Rare,3,1,5,,
+GVG_045,Imp-losion,Spell,Rare,4,,,,Warlock
+CS2_181,Injured Blademaster,Minion,Rare,3,4,7,Battlecry,
+CS1_129,Inner Fire,Spell,Common,1,,,,Priest
+EX1_607,Inner Rage,Spell,Common,0,,,,Warrior
+EX1_169,Innervate,Spell,Free,0,,,,Druid
+GVG_056,Iron Juggernaut,Minion,Legendary,6,6,5,Battlecry,Warrior
+GVG_027,Iron Sensei,Minion,Rare,3,2,2,,Rogue
+CS2_232,Ironbark Protector,Minion,Common,8,8,8,Taunt,Druid
+CS2_203,Ironbeak Owl,Minion,Common,2,2,1,Battlecry,
+CS2_141,Ironforge Rifleman,Minion,Common,3,2,2,Battlecry,
+CS2_125,Ironfur Grizzly,Minion,Common,3,3,3,Taunt,
+GVG_094,Jeeves,Minion,Rare,4,1,4,,
+EX1_017,Jungle Panther,Minion,Common,3,4,2,Stealth,
+GVG_106,Junkbot,Minion,Epic,5,1,5,,
+EX1_166,Keeper of the Grove,Minion,Rare,4,2,4,,Druid
+FP1_013,Kel'Thuzad,Minion,Legendary,8,6,8,,
+GVG_074,Kezan Mystic,Minion,Rare,4,4,3,Battlecry,
+NEW1_005,Kidnapper,Minion,Epic,6,5,3,Combo,Rogue
+EX1_539,Kill Command,Spell,Common,3,,,,Hunter
+EX1_543,King Krush,Minion,Legendary,9,8,8,Charge,Hunter
+EX1_014,King Mukla,Minion,Legendary,3,5,5,Battlecry,
+GVG_046,King of Beasts,Minion,Rare,5,2,6,Battlecry Taunt,Hunter
+EX1_612,Kirin Tor Mage,Minion,Rare,3,4,3,Battlecry,Mage
+NEW1_019,Knife Juggler,Minion,Rare,2,3,2,,
+CS2_142,Kobold Geomancer,Minion,Common,2,2,2,Spellpower,
+NEW1_011,Kor'kron Elite,Minion,Common,4,4,3,Charge,Warrior
+EX1_241,Lava Burst,Spell,Rare,3,,,,Shaman
+BRM_011,Lava Shock,Spell,Rare,2,,,,Shaman
+EX1_354,Lay on Hands,Spell,Epic,8,,,,Paladin
+EX1_116,Leeroy Jenkins,Minion,Legendary,5,6,2,Battlecry Charge,
+EX1_029,Leper Gnome,Minion,Common,1,2,1,Deathrattle,
+GVG_012,Light of the Naaru,Spell,Rare,1,,,,Priest
+CS2_091,Light's Justice,Weapon,Free,1,1,,,Paladin
+GVG_008,Lightbomb,Spell,Epic,6,,,AffectedBySpellPower,Priest
+EX1_238,Lightning Bolt,Spell,Common,1,,,,Shaman
+EX1_259,Lightning Storm,Spell,Rare,3,,,,Shaman
+EX1_335,Lightspawn,Minion,Common,4,0,5,,Priest
+EX1_001,Lightwarden,Minion,Rare,1,1,2,,
+EX1_341,Lightwell,Minion,Rare,2,0,5,,Priest
+GVG_097,Lil' Exorcist,Minion,Rare,3,2,3,Battlecry Taunt,
+FP1_030,Loatheb,Minion,Legendary,5,5,5,Battlecry,
+EX1_096,Loot Hoarder,Minion,Common,2,2,1,Deathrattle,
+EX1_323,Lord Jaraxxus,Minion,Legendary,9,3,15,Battlecry,Warlock
+CS2_162,Lord of the Arena,Minion,Common,6,6,5,Taunt,
+EX1_100,Lorewalker Cho,Minion,Legendary,2,0,4,,
+GVG_071,Lost Tallstrider,Minion,Common,4,5,4,,
+EX1_082,Mad Bomber,Minion,Common,2,3,2,Battlecry,
+FP1_004,Mad Scientist,Minion,Common,2,2,2,Deathrattle,
+GVG_090,Madder Bomber,Minion,Rare,5,5,4,Battlecry,
+FP1_010,Maexxna,Minion,Legendary,6,2,8,Poisonous,
+CS2_118,Magma Rager,Minion,Free,3,5,1,,
+BRM_027,Majordomo Executus,Minion,Legendary,9,9,7,Deathrattle,
+GVG_021,Mal'Ganis,Minion,Legendary,9,9,7,Aura,Warlock
+GVG_035,Malorne,Minion,Legendary,7,9,7,Deathrattle,Druid
+EX1_563,Malygos,Minion,Legendary,9,4,12,Spellpower,
+EX1_055,Mana Addict,Minion,Rare,2,1,3,,
+EX1_575,Mana Tide Totem,Minion,Rare,3,0,3,,Shaman
+EX1_616,Mana Wraith,Minion,Rare,2,2,2,Aura,
+NEW1_012,Mana Wyrm,Minion,Common,1,1,3,,Mage
+EX1_155,Mark of Nature,Spell,Common,3,,,,Druid
+CS2_009,Mark of the Wild,Spell,Free,2,,,,Druid
+EX1_626,Mass Dispel,Spell,Rare,4,,,Silence,Priest
+NEW1_037,Master Swordsmith,Minion,Rare,2,1,3,,
+NEW1_014,Master of Disguise,Minion,Rare,4,4,4,Battlecry,Rogue
+GVG_034,Mech-Bear-Cat,Minion,Rare,6,7,6,,Druid
+GVG_078,Mechanical Yeti,Minion,Common,4,4,5,Deathrattle,
+GVG_006,Mechwarper,Minion,Common,2,2,3,Aura,
+GVG_116,Mekgineer Thermaplugg,Minion,Legendary,9,9,7,,
+GVG_048,Metaltooth Leaper,Minion,Rare,3,3,3,Battlecry,Hunter
+GVG_103,Micro Machine,Minion,Common,2,1,2,,
+NEW1_029,Millhouse Manastorm,Minion,Legendary,2,4,4,Battlecry,
+GVG_111,Mimiron's Head,Minion,Legendary,5,4,5,,
+DS1_233,Mind Blast,Spell,Free,2,,,,Priest
+CS1_113,Mind Control,Spell,Common,10,,,,Priest
+EX1_085,Mind Control Tech,Minion,Rare,3,3,3,Battlecry,
+CS2_003,Mind Vision,Spell,Common,1,,,,Priest
+EX1_345,Mindgames,Spell,Epic,4,,,,Priest
+GVG_109,Mini-Mage,Minion,Epic,4,4,1,Spellpower Stealth,
+EX1_294,Mirror Entity,Spell,Common,3,,,Secret,Mage
+CS2_027,Mirror Image,Spell,Common,1,,,,Mage
+EX1_533,Misdirection,Spell,Rare,2,,,Secret,Hunter
+GVG_018,Mistress of Pain,Minion,Rare,2,1,4,,Warlock
+GVG_112,Mogor the Ogre,Minion,Legendary,6,7,6,,
+EX1_396,Mogu'shan Warden,Minion,Common,4,1,7,Taunt,
+EX1_620,Molten Giant,Minion,Epic,20,8,8,,
+CS2_008,Moonfire,Spell,Common,0,,,,Druid
+EX1_302,Mortal Coil,Spell,Common,1,,,,Warlock
+EX1_408,Mortal Strike,Spell,Rare,4,,,,Warrior
+EX1_105,Mountain Giant,Minion,Epic,12,8,8,,
+DS1_183,Multi-Shot,Spell,Free,4,,,,Hunter
+CS2_168,Murloc Raider,Minion,Free,1,2,1,,
+EX1_509,Murloc Tidecaller,Minion,Rare,1,1,2,,
+EX1_506,Murloc Tidehunter,Minion,Common,2,2,1,Battlecry,
+EX1_507,Murloc Warleader,Minion,Epic,3,3,3,Aura,
+GVG_061,Muster for Battle,Spell,Rare,3,,,,Paladin
+EX1_557,Nat Pagle,Minion,Legendary,2,0,4,,
+EX1_161,Naturalize,Spell,Common,1,,,,Druid
+BRM_030,Nefarian,Minion,Legendary,9,8,8,Battlecry,
+GVG_042,Neptulon,Minion,Legendary,7,7,7,Battlecry,Shaman
+FP1_017,Nerub'ar Weblord,Minion,Common,2,1,4,Aura,
+FP1_007,Nerubian Egg,Minion,Rare,2,0,2,Deathrattle,
+EX1_593,Nightblade,Minion,Free,5,4,4,Battlecry,
+EX1_130,Noble Sacrifice,Spell,Common,1,,,Secret,Paladin
+CS2_235,Northshire Cleric,Minion,Free,1,1,3,HealTarget,Priest
+EX1_164,Nourish,Spell,Rare,5,,,,Druid
+EX1_015,Novice Engineer,Minion,Free,2,1,1,Battlecry,
+EX1_560,Nozdormu,Minion,Legendary,9,8,8,,
+CS2_119,Oasis Snapjaw,Minion,Free,4,2,7,,
+GVG_065,Ogre Brute,Minion,Common,3,4,4,,
+CS2_197,Ogre Magi,Minion,Common,4,4,4,Spellpower,
+GVG_088,Ogre Ninja,Minion,Rare,5,6,6,Stealth,Rogue
+GVG_054,Ogre Warmaul,Weapon,Common,3,4,,,Warrior
+EX1_062,Old Murk-Eye,Minion,Legendary,4,2,4,Charge,
+GVG_025,One-eyed Cheat,Minion,Rare,2,4,1,,Rogue
+EX1_562,Onyxia,Minion,Legendary,9,8,8,Battlecry,
+EX1_522,Patient Assassin,Minion,Epic,2,1,1,Poisonous Stealth,Rogue
+EX1_133,Perdition's Blade,Weapon,Rare,3,2,,Battlecry Combo,Rogue
+GVG_096,Piloted Shredder,Minion,Common,4,4,3,Deathrattle,
+GVG_105,Piloted Sky Golem,Minion,Epic,6,6,4,Deathrattle,
+EX1_076,Pint-Sized Summoner,Minion,Rare,2,2,2,Aura,
+EX1_313,Pit Lord,Minion,Epic,4,5,6,Battlecry,Warlock
+FP1_019,Poison Seeds,Spell,Common,4,,,,Druid
+CS2_022,Polymorph,Spell,Free,4,,,,Mage
+EX1_316,Power Overwhelming,Spell,Common,1,,,,Warlock
+CS2_004,Power Word: Shield,Spell,Free,1,,,,Priest
+EX1_160,Power of the Wild,Spell,Common,2,,,,Druid
+GVG_036,Powermace,Weapon,Rare,3,3,,Deathrattle,Shaman
+EX1_145,Preparation,Spell,Epic,0,,,,Rogue
+EX1_583,Priestess of Elune,Minion,Common,6,5,4,Battlecry,
+EX1_350,Prophet Velen,Minion,Legendary,7,7,7,,Priest
+GVG_064,Puddlestomper,Minion,Common,2,3,2,,
+EX1_279,Pyroblast,Spell,Epic,10,,,,Mage
+GVG_060,Quartermaster,Minion,Epic,5,2,5,Battlecry,Paladin
+EX1_044,Questing Adventurer,Minion,Rare,3,2,2,,
+BRM_013,Quick Shot,Spell,Common,2,,,AffectedBySpellPower,Hunter
+EX1_412,Raging Worgen,Minion,Common,3,3,3,Enrage,
+EX1_298,Ragnaros the Firelord,Minion,Legendary,8,8,8,,
+CS2_122,Raid Leader,Minion,Free,3,2,2,Aura,
+CS2_104,Rampage,Spell,Common,2,,,,Warrior
+CS2_161,Ravenholdt Assassin,Minion,Rare,7,7,5,Stealth,
+CS2_196,Razorfen Hunter,Minion,Common,3,2,3,Battlecry,
+CS2_213,Reckless Rocketeer,Minion,Free,6,5,2,Charge,
+GVG_108,Recombobulator,Minion,Epic,2,3,2,Battlecry,
+GVG_031,Recycle,Spell,Rare,6,,,,Druid
+EX1_136,Redemption,Spell,Common,1,,,Secret,Paladin
+FP1_025,Reincarnate,Spell,Common,2,,,,Shaman
+BRM_029,Rend Blackhand,Minion,Legendary,7,8,4,Battlecry,
+EX1_379,Repentance,Spell,Common,1,,,Secret,Paladin
+BRM_017,Resurrect,Spell,Rare,2,,,,Priest
+BRM_015,Revenge,Spell,Rare,2,,,,Warrior
+CS2_120,River Crocolisk,Minion,Free,2,2,3,,
+CS2_045,Rockbiter Weapon,Spell,Free,1,,,,Shaman
+EX1_134,SI:7 Agent,Minion,Rare,3,3,3,Combo,Rogue
+GVG_047,Sabotage,Spell,Epic,4,,,Combo,Rogue
+NEW1_003,Sacrificial Pact,Spell,Common,0,,,,Warlock
+GVG_070,Salty Dog,Minion,Common,5,7,4,,
+EX1_581,Sap,Spell,Free,2,,,,Rogue
+CS2_011,Savage Roar,Spell,Common,3,,,,Druid
+EX1_578,Savagery,Spell,Rare,1,,,AffectedBySpellPower,Druid
+EX1_534,Savannah Highmane,Minion,Rare,6,6,5,Deathrattle,Hunter
+EX1_020,Scarlet Crusader,Minion,Common,3,3,1,Divine Shield,
+GVG_101,Scarlet Purifier,Minion,Rare,3,4,3,Battlecry,Paladin
+EX1_531,Scavenging Hyena,Minion,Common,2,2,2,,Hunter
+GVG_055,Screwjank Clunker,Minion,Rare,4,2,5,Battlecry,Warrior
+EX1_586,Sea Giant,Minion,Epic,10,8,8,,
+GVG_057,Seal of Light,Spell,Common,2,,,ImmuneToSpellpower,Paladin
+EX1_080,Secretkeeper,Minion,Rare,1,1,2,,
+CS2_179,Sen'jin Shieldmasta,Minion,Free,4,3,5,Taunt,
+EX1_317,Sense Demons,Spell,Common,3,,,,Warlock
+FP1_005,Shade of Naxxramas,Minion,Epic,3,2,2,Stealth,
+CS2_057,Shadow Bolt,Spell,Free,3,,,,Warlock
+EX1_334,Shadow Madness,Spell,Rare,4,,,,Priest
+EX1_622,Shadow Word: Death,Spell,Common,3,,,,Priest
+CS2_234,Shadow Word: Pain,Spell,Free,2,,,,Priest
+GVG_009,Shadowbomber,Minion,Epic,1,2,1,Battlecry,Priest
+GVG_072,Shadowboxer,Minion,Rare,2,2,3,,Priest
+EX1_303,Shadowflame,Spell,Rare,4,,,AffectedBySpellPower,Warlock
+EX1_625,Shadowform,Spell,Epic,3,,,,Priest
+EX1_144,Shadowstep,Spell,Common,0,,,,Rogue
+EX1_019,Shattered Sun Cleric,Minion,Common,3,3,2,Battlecry,
+EX1_606,Shield Block,Spell,Common,3,,,,Warrior
+EX1_410,Shield Slam,Spell,Epic,1,,,AffectedBySpellPower,Warrior
+EX1_405,Shieldbearer,Minion,Common,1,0,4,Taunt,
+GVG_058,Shielded Minibot,Minion,Common,2,2,2,Divine Shield,Paladin
+GVG_053,Shieldmaiden,Minion,Rare,6,5,5,Battlecry,Warrior
+GVG_075,Ship's Cannon,Minion,Common,2,2,3,,
+EX1_278,Shiv,Spell,Common,2,,,,Rogue
+GVG_011,Shrinkmeister,Minion,Common,2,3,2,Battlecry,Priest
+GVG_086,Siege Engine,Minion,Rare,5,5,5,,Warrior
+EX1_332,Silence,Spell,Common,0,,,Silence,Priest
+GVG_040,Siltfin Spiritwalker,Minion,Epic,4,2,5,,Shaman
+CS2_151,Silver Hand Knight,Minion,Common,5,4,4,Battlecry,
+CS2_127,Silverback Patriarch,Minion,Common,3,1,4,Taunt,
+EX1_023,Silvermoon Guardian,Minion,Common,4,3,3,Divine Shield,
+CS2_075,Sinister Strike,Spell,Free,1,,,,Rogue
+EX1_309,Siphon Soul,Spell,Rare,6,,,,Warlock
+EX1_391,Slam,Spell,Common,2,,,,Warrior
+FP1_012,Sludge Belcher,Minion,Rare,5,3,5,Deathrattle Taunt,
+EX1_554,Snake Trap,Spell,Epic,2,,,Secret,Hunter
+GVG_114,Sneed's Old Shredder,Minion,Legendary,8,5,7,Deathrattle,
+EX1_609,Snipe,Spell,Common,2,,,Secret,Hunter
+GVG_002,Snowchugger,Minion,Common,2,2,3,Freeze,Mage
+BRM_001,Solemn Vigil,Spell,Common,5,,,,Paladin
+GVG_123,Soot Spewer,Minion,Rare,3,3,3,Spellpower,Mage
+EX1_608,Sorcerer's Apprentice,Minion,Common,2,3,2,Aura,Mage
+EX1_158,Soul of the Forest,Spell,Common,4,,,,Druid
+EX1_308,Soulfire,Spell,Common,1,,,,Warlock
+NEW1_027,Southsea Captain,Minion,Epic,3,3,3,Aura,
+CS2_146,Southsea Deckhand,Minion,Common,1,2,1,,
+FP1_008,Spectral Knight,Minion,Common,5,4,6,,
+tt_010,Spellbender,Spell,Epic,3,,,Secret,Mage
+EX1_048,Spellbreaker,Minion,Common,4,4,3,Battlecry,
+GVG_044,Spider Tank,Minion,Common,3,3,4,,
+CS2_221,Spiteful Smith,Minion,Common,5,4,6,Enrage,
+CS2_077,Sprint,Spell,Common,7,,,,Rogue
+FP1_014,Stalagg,Minion,Legendary,5,7,4,Deathrattle,
+NEW1_041,Stampeding Kodo,Minion,Rare,5,3,5,Battlecry,
+NEW1_007,Starfall,Spell,Rare,5,,,,Druid
+EX1_173,Starfire,Spell,Common,6,,,,Druid
+CS2_237,Starving Buzzard,Minion,Common,5,3,2,,Hunter
+GVG_087,Steamwheedle Sniper,Minion,Epic,2,2,3,,Hunter
+FP1_027,Stoneskin Gargoyle,Minion,Common,3,1,4,,
+GVG_067,Stonesplinter Trogg,Minion,Common,2,2,3,,
+CS2_171,Stonetusk Boar,Minion,Free,1,1,1,Charge,
+EX1_247,Stormforged Axe,Weapon,Common,2,2,,,Shaman
+CS2_150,Stormpike Commando,Minion,Common,5,4,2,Battlecry,
+CS2_222,Stormwind Champion,Minion,Common,7,6,6,Aura,
+CS2_131,Stormwind Knight,Minion,Common,4,2,5,Charge,
+EX1_028,Stranglethorn Tiger,Minion,Common,5,5,5,Stealth,
+EX1_306,Succubus,Minion,Free,2,4,3,Battlecry,Warlock
+EX1_315,Summoning Portal,Minion,Common,4,0,4,Aura,Warlock
+EX1_058,Sunfury Protector,Minion,Rare,2,2,3,Battlecry,
+EX1_032,Sunwalker,Minion,Rare,6,4,5,Divine Shield Taunt,
+CS2_012,Swipe,Spell,Common,4,,,,Druid
+EX1_366,Sword of Justice,Weapon,Epic,3,1,,,Paladin
+EX1_016,Sylvanas Windrunner,Minion,Legendary,6,5,5,Deathrattle,
+GVG_093,Target Dummy,Minion,Rare,0,0,2,Taunt,
+EX1_390,Tauren Warrior,Minion,Common,3,2,3,Enrage Taunt,
+EX1_623,Temple Enforcer,Minion,Common,6,6,6,Battlecry,Priest
+EX1_577,The Beast,Minion,Legendary,6,9,7,Deathrattle,
+EX1_002,The Black Knight,Minion,Legendary,6,4,5,Battlecry,
+EX1_339,Thoughtsteal,Spell,Common,3,,,,Priest
+EX1_021,Thrallmar Farseer,Minion,Common,3,2,3,Windfury,
+DS1_175,Timber Wolf,Minion,Free,1,1,1,Aura,Hunter
+GVG_022,Tinker's Sharpsword Oil,Spell,Common,4,,,Combo,Rogue
+GVG_102,Tinkertown Technician,Minion,Common,3,3,3,Battlecry,
+EX1_083,Tinkmaster Overspark,Minion,Legendary,3,3,3,Battlecry,
+EX1_383,Tirion Fordring,Minion,Legendary,8,6,6,Deathrattle Divine Shield Taunt,Paladin
+GVG_115,Toshley,Minion,Legendary,6,5,7,Battlecry Deathrattle,
+EX1_244,Totemic Might,Spell,Common,0,,,,Shaman
+DS1_184,Tracking,Spell,Free,1,,,,Hunter
+GVG_028,Trade Prince Gallywix,Minion,Legendary,6,5,8,,Rogue
+GVG_033,Tree of Life,Spell,Epic,9,,,,Druid
+GVG_118,Troggzor the Earthinator,Minion,Legendary,7,6,6,,
+CS2_097,Truesilver Champion,Weapon,Common,4,4,,,Paladin
+DS1_178,Tundra Rhino,Minion,Common,5,2,5,,Hunter
+EX1_043,Twilight Drake,Minion,Rare,4,4,1,Battlecry,
+BRM_004,Twilight Whelp,Minion,Common,1,2,1,Battlecry,Priest
+EX1_312,Twisting Nether,Spell,Epic,8,,,,Warlock
+EX1_258,Unbound Elemental,Minion,Common,3,2,4,,Shaman
+FP1_028,Undertaker,Minion,Common,1,1,2,,
+EX1_538,Unleash the Hounds,Spell,Common,3,,,,Hunter
+FP1_024,Unstable Ghoul,Minion,Common,2,1,3,Deathrattle Taunt,
+GVG_003,Unstable Portal,Spell,Rare,2,,,,Mage
+EX1_409,Upgrade!,Spell,Rare,1,,,,Warrior
+GVG_083,Upgraded Repair Bot,Minion,Rare,5,5,5,Battlecry,Priest
+NEW1_004,Vanish,Spell,Common,6,,,,Rogue
+EX1_594,Vaporize,Spell,Rare,3,,,Secret,Mage
+GVG_010,Velen's Chosen,Spell,Common,3,,,,Priest
+CS2_227,Venture Co. Mercenary,Minion,Common,5,7,6,Aura,
+NEW1_026,Violet Teacher,Minion,Rare,4,3,5,,
+GVG_039,Vitality Totem,Minion,Rare,2,0,3,,Shaman
+EX1_304,Void Terror,Minion,Rare,3,3,3,Battlecry,Warlock
+FP1_022,Voidcaller,Minion,Common,4,3,4,Deathrattle,Warlock
+CS2_065,Voidwalker,Minion,Free,1,1,3,Taunt,Warlock
+GVG_014,Vol'jin,Minion,Legendary,5,6,2,Battlecry,Priest
+BRM_025,Volcanic Drake,Minion,Common,6,6,4,,
+BRM_009,Volcanic Lumberer,Minion,Rare,9,7,8,Taunt,Druid
+EX1_011,Voodoo Doctor,Minion,Free,1,2,1,Battlecry,
+FP1_016,Wailing Soul,Minion,Rare,4,3,5,Battlecry,
+CS2_186,War Golem,Minion,Common,7,7,7,,
+GVG_051,Warbot,Minion,Common,1,1,3,Enrage,Warrior
+EX1_084,Warsong Commander,Minion,Free,3,2,3,,Warrior
+CS2_033,Water Elemental,Minion,Common,4,3,6,Freeze,Mage
+FP1_011,Webspinner,Minion,Common,1,1,1,Deathrattle,Hunter
+GVG_122,Wee Spellstopper,Minion,Epic,4,2,5,Aura,Mage
+GVG_037,Whirling Zap-o-matic,Minion,Common,2,3,2,Windfury,Shaman
+EX1_400,Whirlwind,Spell,Common,1,,,,Warrior
+CS2_013,Wild Growth,Spell,Free,2,,,,Druid
+NEW1_020,Wild Pyromancer,Minion,Rare,2,3,2,,
+CS2_039,Windfury,Spell,Free,2,,,,Shaman
+EX1_033,Windfury Harpy,Minion,Common,6,4,5,Windfury,
+EX1_587,Windspeaker,Minion,Common,4,3,3,Battlecry,Shaman
+CS2_231,Wisp,Minion,Common,0,1,1,,
+CS2_124,Wolfrider,Minion,Free,3,3,1,Charge,
+EX1_010,Worgen Infiltrator,Minion,Common,1,2,1,Stealth,
+EX1_154,Wrath,Spell,Common,2,,,,Druid
+CS2_169,Young Dragonhawk,Minion,Common,1,1,1,Windfury,
+EX1_004,Young Priestess,Minion,Rare,1,2,1,,
+EX1_049,Youthful Brewmaster,Minion,Common,2,3,2,Battlecry,
+EX1_572,Ysera,Minion,Legendary,9,4,12,,
+FP1_001,Zombie Chow,Minion,Common,1,2,3,Deathrattle,

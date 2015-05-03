@@ -1,6 +1,5 @@
 library("tidyr")  
 library("dplyr")
-
 process_csv <- function()
 {
   class_names <- c("druid","hunter","mage","paladin","priest","rogue","shaman","warlock","warrior")
