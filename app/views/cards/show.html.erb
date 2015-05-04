@@ -1,44 +1,7 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Tag:</strong>
-  <%= @card.tag %>
-</p>
+<img src="https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/<%=@card.tag%>.png">
 
-<p>
-  <strong>Name:</strong>
-  <%= @card.name %>
-</p>
+<br>
 
-<p>
-  <strong>Card type:</strong>
-  <%= @card.card_type %>
-</p>
-
-<p>
-  <strong>Rarity:</strong>
-  <%= @card.rarity %>
-</p>
-
-<p>
-  <strong>Cost:</strong>
-  <%= @card.cost %>
-</p>
-
-<p>
-  <strong>Attack:</strong>
-  <%= @card.attack %>
-</p>
-
-<p>
-  <strong>Health:</strong>
-  <%= @card.health %>
-</p>
-
-<p>
-  <strong>Player class:</strong>
-  <%= @card.player_class %>
-</p>
-
-<%= link_to 'Edit', edit_card_path(@card) %> |
 <%= link_to 'Back', cards_path %>
