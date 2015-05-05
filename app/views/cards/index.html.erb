@@ -5,7 +5,6 @@
 <table>
   <thead>
     <tr>
-      <th>Tag</th>
       <th>Name</th>
       <th>Card type</th>
       <th>Rarity</th>
@@ -20,7 +19,6 @@
   <tbody>
     <% @cards.each do |card| %>
       <tr id=<%=card.tag%>>
-        <td><%= card.tag %></td>
         <td id="name"><%= card.name %></td>
         <td><%= card.card_type %></td>
         <td><%= card.rarity %></td>
