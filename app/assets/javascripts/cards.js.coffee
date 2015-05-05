@@ -4,11 +4,12 @@
 
 $ ->
   $("#search").keyup ->
+    $("#submit").click();
 
-    regex = new RegExp("\^"+$("#search").val(),'i') 
-
-    $("tr:has(td#name)").hide()
-    ($("tr:has(td#name)").filter ->
-      $(this).find("td#name").text().match regex).show()
-
-    return
+#  $("#search").keyup ->
+#    regex = new RegExp("\^"+$("#search").val(),'i') 
+#    $("tr:has(td#name)").hide()
+#    ($("tr:has(td#name)").filter ->
+#      $(this).find("td#name").text().match regex).show()
+#
+#    return

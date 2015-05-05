@@ -4,7 +4,17 @@ class CardsController < ApplicationController
   # GET /cards
   # GET /cards.json
   def index
-    @cards = Card.all
+    respond_to do |format|
+      @cards = Card.all.to_a
+      format.html{
+        @valid_cards = @cards
+      }
+      format.js{
+        str = params[:search]
+        @valid_cards = @cards.delete_if {|card| !(card.name.include? str)} 
+        puts @valid_cards.size
+      }
+    end   
   end
 
   # GET /cards/1
@@ -62,7 +72,8 @@ class CardsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+    # Use cal
+  # lbacks to share common setup or constraints between actions.
     def set_card
       @card = Card.find(params[:id])
     end

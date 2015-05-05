@@ -1,6 +1,9 @@
 <h1>Listing cards</h1>
 
-<input id="search" type="text"/>
+<%= form_tag({action: :index}, remote: true, method: 'get') do %>
+  <%= text_field_tag 'search'%>
+  <%= submit_tag '', id: "submit" %>
+<% end %>
 
 <table>
   <thead>
