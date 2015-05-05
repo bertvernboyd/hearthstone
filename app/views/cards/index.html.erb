@@ -1,10 +1,6 @@
 <h1>Listing cards</h1>
 
-<%= form_tag("/cards", method: "get", id: "search_form") do %>
-  <%= label_tag(:name, "Search for:") %>
-  <%= text_field_tag(:name) %>
-  <%= submit_tag("Search") %>
-<% end %>
+<input id="search" type="text"/>
 
 <table>
   <thead>
@@ -23,9 +19,9 @@
 
   <tbody>
     <% @cards.each do |card| %>
-      <tr>
+      <tr id=<%=card.tag%>>
         <td><%= card.tag %></td>
-        <td><%= card.name %></td>
+        <td id="name"><%= card.name %></td>
         <td><%= card.card_type %></td>
         <td><%= card.rarity %></td>
         <td><%= card.cost %></td>

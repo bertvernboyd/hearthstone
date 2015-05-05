@@ -3,7 +3,12 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $ ->
-  $("#name").keyup ->
-    #$("#search_form").submit()
-    #alert $('#name').val()
-    return 
+  $("#search").keyup ->
+
+    regex = new RegExp("\^"+$("#search").val(),'i') 
+
+    $("tr:has(td#name)").hide()
+    ($("tr:has(td#name)").filter ->
+      $(this).find("td#name").text().match regex).show()
+
+    return
