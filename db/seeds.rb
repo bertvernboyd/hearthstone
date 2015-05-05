@@ -20,7 +20,7 @@ CSV.foreach("./lib/assets/csv/cards.csv", :headers => true) do |row|
              cost:         row['cost'].to_i,
              attack:       row['attack'].to_i,
              health:       row['health'].to_i,
-             player_class: row['playerClass'].to_i
+             player_class: row['playerClass']
            }
   Card.create(params)  
 
