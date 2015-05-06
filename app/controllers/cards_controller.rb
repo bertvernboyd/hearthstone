@@ -12,7 +12,6 @@ class CardsController < ApplicationController
       format.js{
         str = params[:search]
         @valid_cards = @cards.delete_if {|card| !(card.name.include? str)} 
-        puts @valid_cards.size
       }
     end   
   end

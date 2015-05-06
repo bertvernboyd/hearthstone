@@ -1,17 +1,18 @@
-$("#card_img_1").attr("src","http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg")
 
 
-var index = 0;
+<% index = 0%>
 var id;
 
+<% for i in 0..7 %>
+  id = "#card_img_" + "<%=i%>";
+  $(id).removeAttr("src");
+<% end %>
+
 <% @valid_cards.slice(0,8).each do |card| %>
-  id = "#card_img_" + index;
-  img_src = "https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/<%= @valid_cards[0].tag %>.png"
-  index += 1;
+  id = "#card_img_" + "<%=index%>";
+  img_src = "https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/<%= @valid_cards[index].tag %>.png"
+  <% index += 1 %>
   $(id).attr("src", img_src);
-<% end %>
-
-alert(img_src);
-<% @valid_cards.each do |card| %>
 
 <% end %>
+
