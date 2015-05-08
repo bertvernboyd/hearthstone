@@ -5,36 +5,19 @@
   <%= submit_tag '', id: "submit" %>
 <% end %>
 
-<div class="section group">
-  <div class="col span_1_of_4">
-    <img id="card_img_0">
-  </div>
-  <div class="col span_1_of_4">
-    <img id="card_img_1">
-  </div>
-  <div class="col span_1_of_4">
-    <img id="card_img_2">
-  </div>
-  <div class="col span_1_of_4">
-    <img id="card_img_3">
-  </div>
+<div>
+  <% c = 4 %>
+  <% r = 2 %>
+  <% r.times do |i| %>
+    <div class="section group">
+      <% for j in 0...c %>
+        <div class="col span_1_of_<%=c%>">
+          <img id="card_img_<%=(j+c*i).to_s%>"/>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
 </div>
-
-<div class="section group">
-  <div class="col span_1_of_4">
-    <img id="card_img_4">
-  </div>
-  <div class="col span_1_of_4">
-    <img id="card_img_5">
-  </div>
-  <div class="col span_1_of_4">
-    <img id="card_img_6">
-  </div>
-  <div class="col span_1_of_4">
-    <img id="card_img_7">
-  </div>
-</div>
-
 <table>
   <thead>
     <tr>

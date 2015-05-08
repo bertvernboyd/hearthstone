@@ -3,8 +3,11 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $ ->
+ 
+  $("#submit").click()
+
   $("#search").keyup ->
-    $("#submit").click();
+    $("#submit").click()
 
 #  $("#search").keyup ->
 #    regex = new RegExp("\^"+$("#search").val(),'i') 
