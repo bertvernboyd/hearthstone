@@ -3,7 +3,17 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $ ->
- 
+
+  $(".col_left").height($(window).height())
+  $(".col_center").height($(window).height())
+  $(".col_right").height($(window).height())
+  $(".col_right").width($(".col_left").width())
+  window.addEventListener "resize", (e) =>
+    $(".col_left").height($(window).height()-$(".banner").height())
+    $(".col_center").height($(window).height())
+    $(".col_right").height($(window).height())
+    $(".col_right").width($(".col_left").width())
+
   $("#submit").click()
 
   $("#search").keyup ->
