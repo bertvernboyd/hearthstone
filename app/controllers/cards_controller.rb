@@ -10,8 +10,9 @@ class CardsController < ApplicationController
         @valid_cards = @cards
       }
       format.js{
-        str = params[:search]
-        @valid_cards = @cards.delete_if {|card| !(card.name.include? str)} 
+        if params[:search]
+          @valid_cards = @cards.delete_if {|card| !(card.name.include? params[:search])}
+        end
       }
     end   
   end
