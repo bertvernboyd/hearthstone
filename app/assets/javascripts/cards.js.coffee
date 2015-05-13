@@ -4,6 +4,8 @@
 
 $ ->
 
+  $(".col_center").data("page_index", 0)
+
   $(".col_left").height($(window).height())
   $(".col_center").height($(window).height())
   $(".col_right").height($(window).height())
@@ -15,9 +17,13 @@ $ ->
     $(".col_right").width($(".col_left").width())
 
   $("#submit").click()
-
+ 
   $("#search").keyup ->
     $("#submit").click()
+    $(".col_center").data("page_index", 0)
+    
+
+  
 
 #  $("#search").keyup ->
 #    regex = new RegExp("\^"+$("#search").val(),'i') 

@@ -1,4 +1,14 @@
+$(".header").on('click', function(){
+  alert ($(".col_center").data("page_index"));
+});
 
+$(".col_left").on('click', function(){
+  $(".col_center").data("page_index",$(".col_center").data("page_index")-1);
+});
+
+$(".col_right").on('click', function(){
+  $(".col_center").data("page_index",$(".col_center").data("page_index")+1);
+});
 
 <% index = 0%>
 var id;

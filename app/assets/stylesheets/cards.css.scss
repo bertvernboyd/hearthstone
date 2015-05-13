@@ -2,7 +2,15 @@
 // They will automatically be included in application.css.
 // Yo can use Sass (SCSS) here: http://sass-lang.com/
 
-#submit {
+#submit{
+    display: none;
+}
+
+#left{
+    display: none;
+}
+
+#right{
     display: none;
 }
 
