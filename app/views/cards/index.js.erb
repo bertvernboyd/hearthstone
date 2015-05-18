@@ -3,11 +3,15 @@ $(".header").on('click', function(){
 });
 
 $(".col_left").on('click', function(){
-  $(".col_center").data("page_index",$(".col_center").data("page_index")-1);
+  if ($(".col_center").data("page_index") != 0) {
+    $(".col_center").data("page_index",$(".col_center").data("page_index")-1);
+  }
 });
 
 $(".col_right").on('click', function(){
-  $(".col_center").data("page_index",$(".col_center").data("page_index")+1);
+  if(true) {
+    $(".col_center").data("page_index",$(".col_center").data("page_index")+1);
+  }
 });
 
 <% index = 0%>
@@ -17,6 +21,8 @@ var id;
   id = "#card_img_" + "<%=i%>";
   $(id).removeAttr("src");
 <% end %>
+
+<% puts @valid_cards.size %>
 
 <% @valid_cards.slice(0,8).each do |card| %>
   id = "#card_img_" + "<%=index%>";
