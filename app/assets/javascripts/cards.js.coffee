@@ -4,7 +4,19 @@
 
 $ ->
 
-  $(".col_center").data("page_index", 0)
+  $('.col_left').on 'click', ->
+    if $('#page_index').data('page_index') != 0
+      $('#page_index').data 'page_index', $('#page_index').data('page_index') - 1
+      $('#page_index').val $('#page_index').data('page_index')
+      $('#submit').click()
+  $('.col_right').on 'click', ->
+    #  if(true) {
+    $('#page_index').data 'page_index', $('#page_index').data('page_index') + 1
+    $('#page_index').val $('#page_index').data('page_index')
+    $('#submit').click()
+    #  }
+
+  $("#page_index").data("page_index", 0)
 
   $(".col_left").height($(window).height())
   $(".col_center").height($(window).height())
@@ -20,7 +32,8 @@ $ ->
  
   $("#search").keyup ->
     $("#submit").click()
-    $(".col_center").data("page_index", 0)
+    $("#page_index").data("page_index", 0)
+    $("#page_index").val($("#page_index").data("page_index")) 
     
 
   
