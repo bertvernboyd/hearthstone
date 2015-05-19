@@ -15,7 +15,7 @@ class CardsController < ApplicationController
         end
         @num_cards = @valid_cards.size
         if params[:page_index]
-          @valid_cards = @valid_cards.slice(params[:page_index].to_i*8,8)
+          @valid_cards = @valid_cards.slice((params[:page_index].to_i-1)*8,8)
         end
       }
     end   

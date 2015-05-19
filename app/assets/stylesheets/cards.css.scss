@@ -27,11 +27,9 @@
   margin: 0px;
 }
 
-$primary-color: #8f0000;
 $xor-color: #70ffff;
 
 .col_left{
-  background-color: $primary-color;
   float: left;
   width: 256px;
 }
@@ -46,7 +44,6 @@ $xor-color: #70ffff;
   margin-right: auto;
 }
 .col_right{
-  background-color: $primary-color;
   float: right;
 }
 

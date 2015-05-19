@@ -1,3 +1,40 @@
+var gray = "#777777";
+var red = "#7F0000";
+
+if($._data($(".col_left").get(0), "events")){}
+else if($('#page_index').data('page_index') != 1)
+{
+  $('.col_left').css("background-color",red);
+  $('.col_left').on("click",function(){
+    $('#page_index').data('page_index', $('#page_index').data('page_index') - 1);
+    $('#page_index').val($('#page_index').data('page_index'));
+    $('#submit').click();
+  });
+}
+if($('#page_index').data('page_index') == 1)
+{
+  $('.col_left').off("click");
+  $('.col_left').css("background-color",gray);
+}
+
+var max_page = Math.ceil(<%= @num_cards %> / 8);
+if($._data($(".col_right").get(0), "events")){}
+else if($('#page_index').data('page_index') != max_page)
+{
+  $('.col_right').css("background-color",red);
+  $('.col_right').on("click",function(){
+    $('#page_index').data('page_index', $('#page_index').data('page_index') + 1);
+    $('#page_index').val($('#page_index').data('page_index'));
+    $('#submit').click();
+  });
+}
+if($('#page_index').data('page_index') == max_page)
+{
+  $('.col_right').off("click");
+  $('.col_right').css("background-color","gray");
+}
+
+
 <% index = 0%>
 var id;
 
@@ -5,8 +42,6 @@ var id;
   id = "#card_img_" + "<%=i%>";
   $(id).removeAttr("src");
 <% end %>
-
-<% puts @num_cards %>
 
 <% @valid_cards.slice(0,8).each do |card| %>
   id = "#card_img_" + "<%=index%>";
