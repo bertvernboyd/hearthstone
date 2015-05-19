@@ -3,18 +3,14 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $ ->
-
   $('.col_left').on 'click', ->
-    if $('#page_index').data('page_index') != 0
-      $('#page_index').data 'page_index', $('#page_index').data('page_index') - 1
-      $('#page_index').val $('#page_index').data('page_index')
-      $('#submit').click()
+    $('#page_index').data 'page_index', $('#page_index').data('page_index') - 1
+    $('#page_index').val $('#page_index').data('page_index')
+    $('#submit').click()
   $('.col_right').on 'click', ->
-    #  if(true) {
     $('#page_index').data 'page_index', $('#page_index').data('page_index') + 1
     $('#page_index').val $('#page_index').data('page_index')
     $('#submit').click()
-    #  }
 
   $("#page_index").data("page_index", 0)
 
@@ -34,14 +30,3 @@ $ ->
     $("#submit").click()
     $("#page_index").data("page_index", 0)
     $("#page_index").val($("#page_index").data("page_index")) 
-    
-
-  
-
-#  $("#search").keyup ->
-#    regex = new RegExp("\^"+$("#search").val(),'i') 
-#    $("tr:has(td#name)").hide()
-#    ($("tr:has(td#name)").filter ->
-#      $(this).find("td#name").text().match regex).show()
-#
-#    return

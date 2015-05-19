@@ -6,7 +6,7 @@ var id;
   $(id).removeAttr("src");
 <% end %>
 
-<% puts @valid_cards.size %>
+<% puts @num_cards %>
 
 <% @valid_cards.slice(0,8).each do |card| %>
   id = "#card_img_" + "<%=index%>";

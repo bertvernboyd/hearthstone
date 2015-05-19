@@ -15,7 +15,7 @@ CSV.foreach("./lib/assets/csv/cards.csv", :headers => true) do |row|
   params = {
              tag:          row['tag'], 
              name:         row['name'], 
-             card_type:   row['type'], 
+             card_type:    row['type'], 
              rarity:       row['rarity'], 
              cost:         row['cost'].to_i,
              attack:       row['attack'].to_i,

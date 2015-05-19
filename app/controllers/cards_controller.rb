@@ -7,11 +7,13 @@ class CardsController < ApplicationController
     respond_to do |format|
       @valid_cards = @cards = Card.all.to_a
       format.html{
+        @num_cards = @valid_cards.size
       }
       format.js{
         if params[:search]
           @valid_cards = @cards.delete_if {|card| !(card.name.include? params[:search])}
         end
+        @num_cards = @valid_cards.size
         if params[:page_index]
           @valid_cards = @valid_cards.slice(params[:page_index].to_i*8,8)
         end
