@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // Yo can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 #submit{
     display: none;
 }
@@ -86,7 +91,6 @@ $xor-color: #70ffff;
 @media only screen and (max-width: 720px) {
   .col_left, .col_right { width: 64px; }
 }
-
 
 @media only screen and (max-width: 480px) {
   .col {  margin: 1% 0 1% 0%; }

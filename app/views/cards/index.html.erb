@@ -1,9 +1,8 @@
 <%= form_tag({action: :index}, remote: true, method: 'get') do %>
   <div class="header">
-    <h1>Listing cards</h1>
-      <%= text_field_tag 'search'%>
-      <%= submit_tag 'submit', id: "submit" %>
-      <%= text_field_tag 'page_index', '1' %>
+    <%= text_field_tag 'search'%>
+    <%= submit_tag 'submit', id: "submit" %>
+    <%= text_field_tag 'page_index', '1' %>
   </div>
 
   <div>
@@ -21,7 +20,7 @@
           <div class="section group">
             <% for j in 0...c %>
               <div class="col span_1_of_<%=c%>">
-                <img id="card_img_<%=(j+c*i).to_s%>"/>
+                <img id="card_img_<%=j+c*i%>"/>
               </div>
             <% end %>
           </div>
