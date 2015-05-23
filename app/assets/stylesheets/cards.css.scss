@@ -36,15 +36,13 @@ body {
   margin: 0px;
 }
 
-$xor-color: #eeff88;
-
 .col_left{
   float: left;
   width: 256px;
 }
 
 .col_center{
-  background-color: $xor-color;
+  background-color: #d0c17d;
   float: none;
   overflow: hidden;
   display: block;
