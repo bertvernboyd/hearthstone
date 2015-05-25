@@ -37,11 +37,13 @@ if($('#page_index').data('page_index') == max_page)
   $('.col_right').css("background-color","gray");
 }
 
+
 <% player_classes.each do |player_class|%>
   $("#<%=player_class%>").find("img").removeAttr("src")
   if($("#player_class").val() == "<%= player_class %>")
   {
     $("#<%=player_class%>").find("img").attr("src", "<%=url+player_class.downcase%>_61x49.png")
+    $('.col_center').css("background-color","<%=player_class_colour player_class %>");
   }
   else
   {
