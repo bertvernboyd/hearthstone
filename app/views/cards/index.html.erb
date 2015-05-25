@@ -6,6 +6,7 @@
     <%= text_field_tag 'search'%>
     <%= submit_tag 'submit', id: "submit" %>
     <%= text_field_tag 'page_index', '1' %>
+    <%= text_field_tag 'player_class', 'Druid' %>
   </div>
 
   <div>
@@ -17,33 +18,14 @@
     </div>
     <div class="col_center">
       <div class="section group" id="icons">
-        <div class="col span_1_of_9">
-          <img src="<%=url%>druid_61x49.png">
-        </div> 
-        <div class="col span_1_of_9">
-          <img src="<%=url%>hunter_61x49.png">
-        </div>
-        <div class="col span_1_of_9">
-          <img src="<%=url%>mage_61x49.png">
-        </div>
-        <div class="col span_1_of_9">
-          <img src="<%=url%>paladin_61x49.png">
-        </div>
-        <div class="col span_1_of_9">
-          <img src="<%=url%>priest_61x49.png">
-        </div>
-        <div class="col span_1_of_9">
-          <img src="<%=url%>rogue_61x49.png">
-        </div>
-        <div class="col span_1_of_9">
-          <img src="<%=url%>shaman_61x49.png">
-        </div>
-        <div class="col span_1_of_9">
-          <img src="<%=url%>warlock_61x49.png">
-        </div>
-        <div class="col span_1_of_9">
-          <img src="<%=url%>warrior_61x49.png">
-        </div>
+  
+        <% player_classes.each do |player_class|%>
+
+          <div class="col span_1_of_<%=player_classes.size %>">
+            <img src="<%=url+player_class.downcase%>_61x49.png">
+          </div>
+        <% end %>
+
       </div>
       <div>
         <% c = 4 %>
