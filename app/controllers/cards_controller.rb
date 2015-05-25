@@ -13,6 +13,12 @@ class CardsController < ApplicationController
         if params[:search]
           @valid_cards = @cards.delete_if {|card| !(card.name.include? params[:search])}
         end
+        if params[:player_class]
+          @valid_cards = @cards.delete_if {|card| !card.player_class.nil? and !(card.player_class.eql? params[:player_class])}
+        else
+          puts "WTF Card Controller"
+        end
+    
         @num_cards = @valid_cards.size
         if params[:page_index]
           @valid_cards = @valid_cards.slice((params[:page_index].to_i-1)*8,8)

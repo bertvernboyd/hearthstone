@@ -1,6 +1,9 @@
 var gray = "#777777";
 var red = "#7F0000";
 
+<%url="https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/icons/"%>
+
+
 if($._data($(".col_left").get(0), "events")){}
 else if($('#page_index').data('page_index') != 1)
 {
@@ -33,6 +36,19 @@ if($('#page_index').data('page_index') == max_page)
   $('.col_right').off("click");
   $('.col_right').css("background-color","gray");
 }
+
+<% player_classes.each do |player_class|%>
+  $("#<%=player_class%>").find("img").removeAttr("src")
+  if($("#player_class").val() == "<%= player_class %>")
+  {
+    $("#<%=player_class%>").find("img").attr("src", "<%=url+player_class.downcase%>_61x49.png")
+  }
+  else
+  {
+    $("#<%=player_class%>").find("img").attr("src", "<%=url%>bw_<%=player_class.downcase%>_61x49.png")
+  }
+<% end %>
+
 
 
 <% index = 0%>

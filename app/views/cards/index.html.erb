@@ -21,8 +21,8 @@
   
         <% player_classes.each do |player_class|%>
 
-          <div class="col span_1_of_<%=player_classes.size %>">
-            <img src="<%=url+player_class.downcase%>_61x49.png">
+          <div class="col span_1_of_<%=player_classes.size %> icon" id="<%=player_class%>">
+            <img src="<%=url+player_class%>_61x49.png">
           </div>
         <% end %>
 
