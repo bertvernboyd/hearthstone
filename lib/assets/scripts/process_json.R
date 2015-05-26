@@ -4,7 +4,7 @@ library("dplyr")
 
 process_json <- function()
 {
-  data <- fromJSON(txt = "../json/AllSets.json", flatten = TRUE)
+  data <- fromJSON(txt = "./lib/assets/json/AllSets.json", flatten = TRUE)
   data <- add_set_names_as_column(data)
   data <- tidy_mechanics(data)
   
@@ -55,13 +55,13 @@ download_card_images <- function(data)
   for(i in 1:length(data$tag))
   {
     url = paste("http://wow.zamimg.com/images/hearthstone/cards/enus/original/",data$tag[i],".png", sep="")
-    dest = paste("../images/",data$tag[i],".png",sep="")
+    dest = paste("./lib/assets/images/",data$tag[i],".png",sep="")
     download.file(url, dest, method = "curl")
   }
 }
 
 write_csv <- function(data)
 {
-  url = "../csv/cards.csv"
+  url = "./lib/assets/csv/cards.csv"
   write.csv(data, url, row.names = FALSE, quote=FALSE, na = "")
 }

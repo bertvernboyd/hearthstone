@@ -6,7 +6,7 @@ process_csv <- function()
   class_data = list()
   for(i in 1:length(class_names))
   {
-    path = paste("../csv/",class_names[i],".csv", sep = "")
+    path = paste("./lib/assets/csv/",class_names[i],".csv", sep = "")
     class_name = class_names[i]
     class_data[[class_name]] <- read.csv(path, header = FALSE, stringsAsFactors = FALSE)
     
