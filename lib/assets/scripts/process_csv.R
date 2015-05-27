@@ -2,11 +2,11 @@ library("tidyr")
 library("dplyr")
 process_csv <- function()
 {
-  class_names <- c("druid","hunter","mage","paladin","priest","rogue","shaman","warlock","warrior")
+  class_names <- c("Druid","Hunter","Mage","Paladin","Priest","Rogue","Shaman","Warlock","Warrior")
   class_data = list()
   for(i in 1:length(class_names))
   {
-    path = paste("./lib/assets/csv/",class_names[i],".csv", sep = "")
+    path = paste("./lib/assets/csv/",tolower(class_names[i]),".csv", sep = "")
     class_name = class_names[i]
     class_data[[class_name]] <- read.csv(path, header = FALSE, stringsAsFactors = FALSE)
     
@@ -38,5 +38,12 @@ process_csv <- function()
       arrange(desc(value))
   }
 
+  write_csv(class_data)
   class_data
+}
+
+write_csv <- function(data)
+{
+  url = "./lib/assets/csv/scores.csv"
+  write.csv(data, url, row.names = FALSE, quote=FALSE, na = "")
 }

@@ -8,10 +8,13 @@
 
 require 'csv'
 
+player_classes = 
+  ['Druid', 'Hunter', 'Mage', 'Paladin', 'Priest', 'Rogue', 'Shaman', 'Warlock', 'Warrior']
+
+Score.delete_all
 Card.delete_all
 
 CSV.foreach("./lib/assets/csv/cards.csv", :headers => true) do |row|
-
   params = {
              tag:          row['tag'], 
              name:         row['name'], 
@@ -23,5 +26,15 @@ CSV.foreach("./lib/assets/csv/cards.csv", :headers => true) do |row|
              player_class: row['playerClass']
            }
   Card.create(params)  
+end
 
+CSV.foreach("./lib/assets/csv/scores.csv", :headers => true) do |row|
+  player_classes.each do |player_class|
+    params = {
+      player_class: player_class,
+      value:        row["#{player_class}.value"],
+      card:         Card.find_by(name: row["#{player_class}.name"])
+    }
+    Score.create(params) 
+  end
 end  
