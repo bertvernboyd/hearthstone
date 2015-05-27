@@ -33,8 +33,9 @@
         <% r.times do |i| %>
           <div class="section group">
             <% for j in 0...c %>
-              <div class="col span_1_of_<%=c%>">
+              <div class="col span_1_of_<%=c%> relative">
                 <img id="card_img_<%=j+c*i%>"/>
+                <div id="score_<%=j+c*i%>" class="absolute">50</div>
               </div>
             <% end %>
           </div>

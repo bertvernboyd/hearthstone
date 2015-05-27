@@ -57,13 +57,18 @@ if($('#page_index').data('page_index') == max_page)
 var id;
 
 <% for i in 0..7 %>
-  id = "#card_img_" + "<%=i%>";
+  id = "#card_img_<%=i%>";
   $(id).removeAttr("src");
+  score = "#score_<%=i%>";
+  $(score).text("");
 <% end %>
 
 <% @valid_cards.slice(0,8).each do |card| %>
-  id = "#card_img_" + "<%=index%>";
+  id = "#card_img_<%=index%>";
   img_src = "https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/<%= card.tag %>.png"
+  <%# puts card.scores.where(player_class: params[:player_class]).first.value%>;
+  score = "#score_<%=index%>";
+  $(score).text(<%=card.scores.where(player_class: params[:player_class]).first.value%>);
   <% index += 1 %>
   $(id).attr("src", img_src);
 
