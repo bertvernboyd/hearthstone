@@ -3,27 +3,19 @@
 // Yo can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
 }
 
 #submit{
     display: none;
 }
 
-#player_class{
+#page_left{
     display: none;
 }
 
-#left{
-    display: none;
-}
-
-#right{
-    display: none;
-}
-
-#page_index{
+#page_right{
     display: none;
 }
 
@@ -82,6 +74,10 @@ body {
 
 .span_1_of_4 {
   width: 23.8%;
+}
+
+.span_1_of_5 {
+  width: 18.72%;
 }
 
 .span_1_of_9 {

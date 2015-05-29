@@ -2,28 +2,38 @@
 
 
   <%= submit_tag 'submit', id: "submit" %>
-  <%= text_field_tag 'page_index', '1' %>
-  <%= text_field_tag 'player_class', 'Druid' %>
+  <%= hidden_field_tag 'page_index', '1' %>
+  <%= hidden_field_tag 'player_class', 'Druid' %>
 
   <%url="https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/icons/"%>
 
-  <div class="section group">
+  <div class="section group" id="header">
     <div class="col span_1_of_3">
       <%= text_field_tag 'search'%>
     </div>
     <div class="col span_1_of_3">
+      Mechanics
     </div>
     <div class="col span_1_of_3">
-    
+      <div class "section group">
+        <% rarities.each do |rarity|%>
+          <div class="col span_1_of_5">
+             <img src="<%=url+rarity.downcase%>.png"> 
+          </div>
+        <% end %>
+        <div class="col span_1_of_5">
+             <img src="<%=url%>all.png">
+        </div>
+      </div>    
     </div>
   </div>
 
   <div>
     <div class="col_left">
-      <%= submit_tag 'left', id: "left" %>
+      <%= submit_tag nil, id: "page_left" %>
     </div>
     <div class="col_right">
-      <%= submit_tag 'right', id: "right" %>
+      <%= submit_tag nil, id: "page_right" %>
     </div>
     <div class="col_center">
       <div class="section group" id="icons">
@@ -44,7 +54,7 @@
             <% for j in 0...c %>
               <div class="col span_1_of_<%=c%> relative">
                 <img id="card_img_<%=j+c*i%>"/>
-                <div id="score_<%=j+c*i%>" class="absolute">50</div>
+                <div id="score_<%=j+c*i%>" class="absolute"></div>
               </div>
             <% end %>
           </div>
