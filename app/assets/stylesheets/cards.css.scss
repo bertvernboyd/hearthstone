@@ -31,6 +31,10 @@ body {
   background-color: #101010;
 }
 
+#search{
+  width: 100%;
+}
+
 /* www.responsivegridsystem.com/calculator/ */
 
 /*  SECTIONS  */
@@ -71,6 +75,10 @@ body {
 .group { zoom:1; /* For IE 6/7 */ }
 
 /*  GID SPANS */
+
+.span_1_of_3 {
+  width: 32.26%;
+}
 
 .span_1_of_4 {
   width: 23.8%;

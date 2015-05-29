@@ -44,6 +44,7 @@ if($('#page_index').data('page_index') == max_page)
   {
     $("#<%=player_class%>").find("img").attr("src", "<%=url+player_class.downcase%>_61x49.png")
     $('.col_center').css("background-color","<%=player_class_colour player_class %>");
+    $('.absolute').css("background-color", "<%=player_class_complementary_colour player_class %>");
   }
   else
   {

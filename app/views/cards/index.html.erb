@@ -1,12 +1,21 @@
 <%= form_tag({action: :index}, remote: true, method: 'get') do %>
 
+
+  <%= submit_tag 'submit', id: "submit" %>
+  <%= text_field_tag 'page_index', '1' %>
+  <%= text_field_tag 'player_class', 'Druid' %>
+
   <%url="https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/icons/"%>
 
-  <div class="header">
-    <%= text_field_tag 'search'%>
-    <%= submit_tag 'submit', id: "submit" %>
-    <%= text_field_tag 'page_index', '1' %>
-    <%= text_field_tag 'player_class', 'Druid' %>
+  <div class="section group">
+    <div class="col span_1_of_3">
+      <%= text_field_tag 'search'%>
+    </div>
+    <div class="col span_1_of_3">
+    </div>
+    <div class="col span_1_of_3">
+    
+    </div>
   </div>
 
   <div>

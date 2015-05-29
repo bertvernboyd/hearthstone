@@ -17,6 +17,17 @@ module CardsHelper
     colours[player_class]
   end
 
-  
-
+  def player_class_complementary_colour player_class
+    colours = {}
+    colours['Druid'] = "#f1cfb0"
+    colours['Hunter'] = "#9fd19f"
+    colours['Mage'] = "#e7e9f2"
+    colours['Paladin'] = "#ffe69e"
+    colours['Priest'] = "#ffffff"
+    colours['Rogue'] = "#a28d90"
+    colours['Shaman'] = "#a9acdd"
+    colours['Warlock'] = "#d2bfd8"
+    colours['Warrior'] = "#df8b89"
+    colours[player_class]
+  end
 end
