@@ -67,6 +67,7 @@ var id;
 <% @valid_cards.slice(0,8).each do |card| %>
   id = "#card_img_<%=index%>";
   img_src = "https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/<%= card.tag %>.png"
+  <%# puts card.scores.where(player_class: params[:player_class]).first.value%>;
   score = "#score_<%=index%>";
   $(score).text(<%=card.scores.where(player_class: params[:player_class]).first.value%>);
   <% index += 1 %>

@@ -54,9 +54,7 @@
             <% for j in 0...c %>
               <div class="col span_1_of_<%=c%> relative">
                 <img id="card_img_<%=j+c*i%>"/>
-                <div class="circle absolute">
-                  <div id="score_<%=j+c*i%>" class="score"></div>
-                </div>
+                <div id="score_<%=j+c*i%>" class="absolute"></div>
               </div>
             <% end %>
           </div>
