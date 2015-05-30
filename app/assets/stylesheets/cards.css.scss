@@ -7,6 +7,16 @@ body {
   padding: 0;
 }
 
+.circle{
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 30%;
+    height: 20%;
+    top: 10%;
+    right: 0%;
+    text-align: center;
+}
+
 #submit{
     display: none;
 }
@@ -116,6 +126,4 @@ img{
 
 .absolute{
   position: absolute;
-  top: 10%;
-  right: 0%;
 }
