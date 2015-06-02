@@ -35,4 +35,8 @@ module CardsHelper
     colours['Warrior'] = "#df8b89"
     colours[player_class]
   end
+
+  def image_dir
+    "https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/"
+  end
 end

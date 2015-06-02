@@ -1,7 +1,7 @@
 var gray = "#777777";
 var red = "#7F0000";
 
-<%url="https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/icons/"%>
+<%url=image_dir+"icons/"%>
 
 
 if($._data($(".col_left").get(0), "events")){}
@@ -66,8 +66,7 @@ var id;
 
 <% @valid_cards.slice(0,8).each do |card| %>
   id = "#card_img_<%=index%>";
-  img_src = "https://raw.githubusercontent.com/bertvernboyd/hearthstone/master/lib/assets/images/<%= card.tag %>.png"
-  <%# puts card.scores.where(player_class: params[:player_class]).first.value%>;
+  img_src = "<%=image_dir+card.tag %>.png"
   score = "#score_<%=index%>";
   $(score).text(<%=card.scores.where(player_class: params[:player_class]).first.value%>);
   <% index += 1 %>
